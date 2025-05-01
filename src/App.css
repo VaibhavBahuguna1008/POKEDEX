@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  width: 100vw;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #242424;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.controls {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.search-bar, .type-filter {
+  padding: 10px;
+  font-size: 16px;
+}
+.pokemon-list {
+  display: grid;
+  width: auto;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+.pokemon-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background: #4d4b4b;
+}
+.types {
+  margin-top: 10px;
+}
+.type {
+  display: inline-block;
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 2px;
+  font-size: 0.8em;
+  text-transform: capitalize;
+}
